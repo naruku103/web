@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <style>
+     table, th, td {
+  border:1px solid black;
+}
+            #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+ </style>
+
+ </head>
+    <body>
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <div style="background-color:black;color:white;padding:30px">
+    <h1 style="text-align:center" >
+      B.C.A
+
+    </h1> <br>
+
+     </div>
+          <div style="background-color:lightgrey;padding:30px 30px 2500px">
+     <p>
+        Bachelor in Computer Application (BCA) is an undergraduate degree course in computer applications. 
+        With the rapid growth of IT industry in India, the demand of computer professional is increasing day by day. 
+        This increasing growth of IT industry has created a lot of opportunities for the computer graduates.<br>
+        The students who are interested in BCA as their higher studies must fulfill the following eligibility criteria:<br>
+
+    </p>
+    <p class= "italic">
+        <ul>
+            <li><b>Candidate must have passed class 12th or senior secondary examination with at least 50% marks including English.</b></li> <br>
+            <li><b>Candidate Should be a citizen of India.</b></li> <br>
+            <li><b>The merit is prepared on the basis of candidate performance in the qualifying examination (12th).</b></li> <br>
+
+        </ul>
+
+       <i><u> Programming language taught in course can be (click on name to know more about language) </u></i>
+
+        <ul>
+            <a href = "https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"><li>  Python</li> </a> <br>
+
+            <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank"> <li>C++</li> </a> <br>
+
+            <a href ="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank"><li>Java</li> <br></a>
+
+            
+        </ul>
+
+        <p>
+            <b style="font-size: large;">Click on the image below to check out trending language </b> <br>
+            <br>
+
+           <a href="https://www.tiobe.com/tiobe-index/" target="_blank"> <img src="img.png" alt="coding language" width="800" height="600"> </a> 
+        
+        
+        </p> <br> 
+
+        <P>
+
+        <h1 style="text-align:center" >
+            TIME TABLE </h1>
+
+            <table>
+                <tr>
+                  <th>  </th>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                  <th>LUNCH BREAK</th>
+                  <th>4</th>
+                  <th>5</th>
+                  <th>6</th>
+                </tr>
+                <tr>
+                  <td>MONDAY</td>
+                  <td>CA-301</td>
+                  <td>Library</td>
+                  <td>CA-302</td>
+                  <td>.   </td>
+                  <td>CA-311(LAB)</td>
+                  <td>CA-311(LAB)</td>
+                  <td>CA-311(LAB)</td>
+                </tr>
+                <tr>
+                 <td>TUESDAY</td>
+                  <td>CA-307</td>
+                  <td>Library</td>
+                  <td>CA-303</td>
+                  <td>.   </td>
+                  <td>CA-310(LAB)</td>
+                  <td>CA-310(LAB)</td>
+                  <td>CA-310(LAB)</td>
+                  
+                </tr>
+                <tr>
+                  <td>WEDNESDAY</td>
+                  <td>CA-301</td>
+                  <td>CA-303</td>
+                  <td>CA-304</td>
+                  <td>.   </td>
+                  <td>CA-302</td>
+                  <td>PPP(SOFT SKILL)</td>
+                  <td>Library</td>
+                </tr>
+                <tr>
+                  <td>THURSDAY</td>
+                  <td>CA-307</td>
+                  <td>CA-302</td>
+                  <td>Library</td>
+                  <td>.   </td>
+                  <td>CA-304</td>
+                  <td>CA-301</td>
+                  <td>library</td>
+                </tr>
+                
+                <tr>
+                  <td>FRIDAY</td>
+                  <td>CA-304</td>
+                  <td>CA-311(LAB)</td>
+                  <td>CA-311(LAB)</td>
+                  <td>.   </td>
+                  <td>CA-311(LAB)</td>
+                  <td>CA-303</td>
+                  <td>CA-303</td>
+                </tr>
+                
+                <tr>
+                  <td>SATURDAY</td>
+                  <td>CA-304</td>
+                  <td>CA-302</td>
+                  <td>CA-301</td>
+                  <td>.   </td>
+                  <td>CA-307</td>
+                  <td>Library</td>
+                  <td>Library</td>
+                </tr>
+              </table>
+
+            </P> <br> <br>
+
+            <h1 style="text-align: center;">Audio & Video </AUdio></h1>
+
+            <p>
+                <h2>VIDEO</h2> <br> 
+                <video  width = "300" height = "200" controls autoplay>
+                    
+                    <source src = "foo.mp4" type = "video/mp4" />
+                    Your browser does not support the VIDEO element.
+                 </video>
+
+                
+            </p> <br>
+
+            <p>
+                <h2>AUDIO</h2><br><br>
+           <b><i> Listen to this beautiful voice of Nightingale </i></b> <br>
+                <audio controls>  
+                    <source src="bird.mp3" type="audio/mp3">  
+                  Your browser does not support the html audio tag.  
+                  </audio>
+               
+            </p>
+
+
+    
+              
+
+
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+   
+    
+
+    
+    </p>
+    </div>
+    </body>
+    </html>
